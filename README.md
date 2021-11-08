@@ -14,7 +14,7 @@
 
 3. build the dockerfile using following command:
 ```
-    docker build --file Dockerfile -t torchserveAI:mechSolutions
+    docker build --file Dockerfile -t torchserve_ai:mech_solutions
 ```
 
 
