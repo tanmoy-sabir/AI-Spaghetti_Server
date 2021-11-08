@@ -9,7 +9,7 @@
 ```
     cd AI-Spaghetti_Server/AI_Model/
     wget -c http://bashupload.com/4E4zc/3sBxF.mar -O mech_solutions_model.mar
-    cd ../../
+    cd ..
 ```
 
 3. build the dockerfile using following command:
