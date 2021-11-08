@@ -14,11 +14,11 @@
 
 3. build the dockerfile using following command:
 ```
-    docker build --file Dockerfile -t torchserve_ai:mech_solutions
+sudo docker build --file Dockerfile -t torchserve_ai:mech_solutions .
 ```
 
 
 4. run the built image using following command:
 ```
-    docker run --rm -it --gpus all -p 8080:8080 -p 8081:8081 -p 8082:8082 -p 7070:7070 -p 7071:7071 retina:gpu
+sudo docker run --rm -it --gpus all -p 8080:8080 -p 8081:8081 -p 8082:8082 -p 7070:7070 -p 7071:7071 torchserve_ai:mech_solutions
 ```
