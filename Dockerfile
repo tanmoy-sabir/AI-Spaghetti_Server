@@ -7,5 +7,5 @@ USER root
 RUN chown -R model-server /home/model-server
 USER model-server
 RUN mv /home/model-server/AI_Model/config.properties /home/model-server/config.properties
-RUN cp /home/model-server/AI_Model/mech_solutions_model.mar /home/model-server/model-store/
+RUN cp /home/model-server/AI_Model/solutions_model.mar /home/model-server/model-store/
 
