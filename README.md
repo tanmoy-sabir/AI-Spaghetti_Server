@@ -8,17 +8,17 @@
 2. Copy the MAR file in the directory:
 ```
     cd AI-Spaghetti_Server/AI_Model/
-    wget -c http://bashupload.com/4E4zc/3sBxF.mar -O mech_solutions_model.mar
+    wget -c http://bashupload.com/4E4zc/3sBxF.mar -O solutions_model.mar
     cd ..
 ```
 
 3. build the dockerfile using following command:
 ```
-sudo docker build --file Dockerfile -t torchserve_ai:mech_solutions .
+sudo docker build --file Dockerfile -t torchserve_ai:server_ai .
 ```
 
 
 4. run the built image using following command:
 ```
-sudo docker run --rm -it --gpus all -p 8080:8080 -p 8081:8081 -p 8082:8082 -p 7070:7070 -p 7071:7071 torchserve_ai:mech_solutions
+sudo docker run --rm -it --gpus all -p 8080:8080 -p 8081:8081 -p 8082:8082 -p 7070:7070 -p 7071:7071 torchserve_ai:server_ai
 ```
